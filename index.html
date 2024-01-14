@@ -1,0 +1,12 @@
+<div id="root"></div>
+
+<script type="module">
+  import { createRoot } from "svelte";
+  import App from "./src/App.svelte";
+
+  const app = createRoot(App, {
+    target: document.getElementById("root"),
+  });
+
+  export default app;
+</script>
