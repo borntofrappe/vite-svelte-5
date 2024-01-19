@@ -4,6 +4,8 @@
 >
 > to tinker with the soon-to-be-released Svelte 5
 
+Set up.
+
 ```bash
 npx degit borntofrappe/vite-svelte-5 app
 cd app
